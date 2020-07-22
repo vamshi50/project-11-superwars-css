@@ -1,4 +1,56 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+.footer {
+  margin-left: 80px;
+  font-size: 18px;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Lora', serif;
+}
+
+.grid-container {
+  /* display: grid;
+  grid-template-columns: repeat(1fr, 5) ;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  justify-content: stretch; */
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: 100px;
+  grid-gap: 15px;
+  background-color: white;
+  padding: 20px;
+  align-items: stretch;
+  height: 1000px;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-left: -80%;
+  height: 280px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item li {
+  list-style: none;
+}
+
+#grid-item-3 {
+  padding: 1em 8em 0em 8em;
+  border: none;
+}
+
+li.items-number {
+  font-size: 300%;
+  font-weight: 300;
+  height: 2em;
 }
